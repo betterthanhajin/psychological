@@ -42,7 +42,7 @@ export default function QuestionList02() {
                 padding: "5px",
               }}
             >
-              <Link to="/question">
+              <Link to="/question03">
                 <button
                   style={{
                     width: "100%",
