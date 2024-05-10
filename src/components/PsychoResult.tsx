@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import answer01 from "../image/answer01.png";
+import answer02 from "../image/answer02.png";
+import answer04 from "../image/answer04.png";
 import answer03 from "../image/answer03.png";
 // import share from "../image/share.png";
 
@@ -13,11 +15,11 @@ export default function QuestionList03() {
       case "cityArtist":
         return <img src={answer01} width={200} height={200}></img>;
       case "futureScientist":
-        return <img src={answer03} width={200} height={200}></img>;
+        return <img src={answer02} width={200} height={200}></img>;
       case "natureExplorer":
-        return <img src={answer01} width={200} height={200}></img>;
-      case "countryEducator":
         return <img src={answer03} width={200} height={200}></img>;
+      case "countryEducator":
+        return <img src={answer04} width={200} height={200}></img>;
     }
   };
   const renderResult = () => {
