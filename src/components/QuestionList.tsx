@@ -67,53 +67,95 @@ export default function QuestionList() {
                 padding: "5px",
               }}
             >
-              과학자
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              탐험가
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              교육자
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              기업가
-            </li>
-            <div style={{ padding: "5px" }}>
-              <Link to="/question">
+              <Link to="/question02">
                 <button
                   style={{
-                    width: "87px",
+                    width: "100%",
                     height: "27px",
-                    background: "white",
-                    color: "#ff9ae2",
+                    color: "white",
                     border: "none",
-                    borderRadius: "6px",
+                    background: "none",
                     cursor: "pointer",
                     fontWeight: "bolder",
+                    fontSize: "15px",
                   }}
                 >
-                  다음
+                  과학자
                 </button>
               </Link>
-            </div>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question02">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  탐험가
+                </button>
+              </Link>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question02">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  교육자
+                </button>
+              </Link>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question02">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  기업가
+                </button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

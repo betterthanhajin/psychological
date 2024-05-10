@@ -66,44 +66,71 @@ export default function QuestionList03() {
                 padding: "5px",
               }}
             >
-              등산같은 아웃도어 활동
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              책 읽기 또는 글쓰기
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              요리 또는 정원 가꾸기
-            </li>
-            <div style={{ padding: "5px" }}>
-              <Link to="/question">
+              <Link to="/question04">
                 <button
                   style={{
-                    width: "87px",
+                    width: "100%",
                     height: "27px",
-                    background: "white",
-                    color: "#ff9ae2",
+                    color: "white",
                     border: "none",
-                    borderRadius: "6px",
+                    background: "none",
                     cursor: "pointer",
                     fontWeight: "bolder",
+                    fontSize: "15px",
                   }}
                 >
-                  다음
+                  등산같은 아웃도어 활동
                 </button>
               </Link>
-            </div>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question04">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  책 읽기 또는 글쓰기
+                </button>
+              </Link>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question04">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  요리 또는 정원 가꾸기
+                </button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

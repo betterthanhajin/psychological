@@ -43,7 +43,7 @@ export default function QuestionList03() {
               피난처를 둘러싸고 있습니다.
             </div>
             <div style={{ padding: "5px" }}>
-              <Link to="/question">
+              <Link to="/">
                 <button
                   style={{
                     width: "87px",

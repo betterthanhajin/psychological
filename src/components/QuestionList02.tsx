@@ -66,44 +66,71 @@ export default function QuestionList02() {
                 padding: "5px",
               }}
             >
-              조용하고 사색적인
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              사교적이고 활발한
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              신중하고 체계적인
-            </li>
-            <div style={{ padding: "5px" }}>
-              <Link to="/question">
+              <Link to="/question03">
                 <button
                   style={{
-                    width: "87px",
+                    width: "100%",
                     height: "27px",
-                    background: "white",
-                    color: "#ff9ae2",
+                    color: "white",
                     border: "none",
-                    borderRadius: "6px",
+                    background: "none",
                     cursor: "pointer",
                     fontWeight: "bolder",
+                    fontSize: "15px",
                   }}
                 >
-                  다음
+                  조용하고 사색적인
                 </button>
               </Link>
-            </div>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question03">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  사교적이고 활발한
+                </button>
+              </Link>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/question03">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  신중하고 체계적인
+                </button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

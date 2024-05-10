@@ -67,44 +67,71 @@ export default function QuestionList03() {
                 padding: "5px",
               }}
             >
-              개인의 성장과 자기계발
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              사회적 영향력과 변화
-            </li>
-            <li
-              style={{
-                border: "1px solid white",
-                marginBottom: "15px",
-                padding: "5px",
-              }}
-            >
-              창의성과 혁신
-            </li>
-            <div style={{ padding: "5px" }}>
-              <Link to="/question">
+              <Link to="/psycholResult">
                 <button
                   style={{
-                    width: "87px",
+                    width: "100%",
                     height: "27px",
-                    background: "white",
-                    color: "#ff9ae2",
+                    color: "white",
                     border: "none",
-                    borderRadius: "6px",
+                    background: "none",
                     cursor: "pointer",
                     fontWeight: "bolder",
+                    fontSize: "15px",
                   }}
                 >
-                  다음
+                  개인의 성장과 자기계발
                 </button>
               </Link>
-            </div>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/psycholResult">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  사회적 영향력과 변화
+                </button>
+              </Link>
+            </li>
+            <li
+              style={{
+                border: "1px solid white",
+                marginBottom: "15px",
+                padding: "5px",
+              }}
+            >
+              <Link to="/psycholResult">
+                <button
+                  style={{
+                    width: "100%",
+                    height: "27px",
+                    color: "white",
+                    border: "none",
+                    background: "none",
+                    cursor: "pointer",
+                    fontWeight: "bolder",
+                    fontSize: "15px",
+                  }}
+                >
+                  창의성과 혁신
+                </button>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
