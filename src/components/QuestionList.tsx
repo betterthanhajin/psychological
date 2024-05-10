@@ -63,7 +63,7 @@ export default function QuestionList() {
                     fontWeight: "bolder",
                     fontSize: "15px",
                   }}
-                  onClick={() => handleClick("예술가")}
+                  onClick={() => handleClick("cityArtist")}
                 >
                   예술가
                 </button>
@@ -88,7 +88,7 @@ export default function QuestionList() {
                     fontWeight: "bolder",
                     fontSize: "15px",
                   }}
-                  onClick={() => handleClick("과학자")}
+                  onClick={() => handleClick("futureScientist")}
                 >
                   과학자
                 </button>
@@ -113,7 +113,7 @@ export default function QuestionList() {
                     fontWeight: "bolder",
                     fontSize: "15px",
                   }}
-                  onClick={() => handleClick("탐험가")}
+                  onClick={() => handleClick("natureExplorer")}
                 >
                   탐험가
                 </button>
@@ -138,13 +138,13 @@ export default function QuestionList() {
                     fontWeight: "bolder",
                     fontSize: "15px",
                   }}
-                  onClick={() => handleClick("교육자")}
+                  onClick={() => handleClick("countryEducator")}
                 >
                   교육자
                 </button>
               </Link>
             </li>
-            <li
+            {/* <li
               style={{
                 border: "1px solid white",
                 marginBottom: "15px",
@@ -168,7 +168,7 @@ export default function QuestionList() {
                   기업가
                 </button>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
