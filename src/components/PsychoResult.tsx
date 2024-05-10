@@ -1,6 +1,8 @@
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import answer01 from "../image/answer01.png";
+import share from "../image/share.png";
 
 export default function QuestionList03() {
   return (
@@ -14,7 +16,9 @@ export default function QuestionList03() {
           transform: "translate(-56%, -50%)",
         }}
       >
-        <div style={{ marginLeft: "40px" }}>
+        <div
+          style={{ marginLeft: "40px", background: "#f59cdf", opacity: "0.8" }}
+        >
           <img src={answer01} width={200} height={200}></img>
         </div>
         <div>
@@ -59,6 +63,30 @@ export default function QuestionList03() {
                   다시하기
                 </button>
               </Link>
+              <button
+                style={{
+                  width: "87px",
+                  height: "27px",
+                  background: "white",
+                  color: "#ff9ae2",
+                  border: "none",
+                  borderRadius: "6px",
+                  cursor: "pointer",
+                  fontWeight: "bolder",
+                  marginLeft: "10px",
+                  verticalAlign: "middle",
+                }}
+              >
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
+                  <img src={share} width={20} height={20}></img>
+                </div>
+              </button>
             </div>
           </ul>
         </div>

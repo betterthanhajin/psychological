@@ -1,7 +1,14 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 
 export default function QuestionList03() {
+  const [selectedText, setSelectedText] = useState("");
+
+  const handleClick = (text: string) => {
+    setSelectedText(text);
+    sessionStorage.setItem("answer03", text);
+  };
   return (
     <>
       <BackgroundBeams />
@@ -54,6 +61,7 @@ export default function QuestionList03() {
                     fontWeight: "bolder",
                     fontSize: "15px",
                   }}
+                  onClick={() => handleClick("음악 연주")}
                 >
                   음악 연주
                 </button>
@@ -77,7 +85,9 @@ export default function QuestionList03() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("등산같은 아웃도어 활동")}
                 >
                   등산같은 아웃도어 활동
                 </button>
@@ -101,7 +111,9 @@ export default function QuestionList03() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("책 읽기 또는 글쓰기")}
                 >
                   책 읽기 또는 글쓰기
                 </button>
@@ -125,7 +137,9 @@ export default function QuestionList03() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("요리 또는 정원 가꾸기")}
                 >
                   요리 또는 정원 가꾸기
                 </button>

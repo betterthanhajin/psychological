@@ -1,7 +1,14 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 
 export default function QuestionList02() {
+  const [selectedText, setSelectedText] = useState("");
+
+  const handleClick = (text: string) => {
+    setSelectedText(text);
+    sessionStorage.setItem("answer02", text);
+  };
   return (
     <>
       <BackgroundBeams />
@@ -53,7 +60,9 @@ export default function QuestionList02() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("대담하고 모험적인")}
                 >
                   대담하고 모험적인
                 </button>
@@ -77,7 +86,9 @@ export default function QuestionList02() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("조용하고 사색적인")}
                 >
                   조용하고 사색적인
                 </button>
@@ -101,7 +112,9 @@ export default function QuestionList02() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("사교적이고 활발한")}
                 >
                   사교적이고 활발한
                 </button>
@@ -125,7 +138,9 @@ export default function QuestionList02() {
                     cursor: "pointer",
                     fontWeight: "bolder",
                     fontSize: "15px",
+                    whiteSpace: "nowrap",
                   }}
+                  onClick={() => handleClick("신중하고 체계적인")}
                 >
                   신중하고 체계적인
                 </button>
